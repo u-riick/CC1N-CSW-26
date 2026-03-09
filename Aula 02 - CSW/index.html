@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+    <title>Aula 02 | Imagens</title>
+</head>
+<body>
+    <h1>Desafio das Imagens</h1>
+   
+    <h2>Imagem da Cidade</h2>
+        <figure>
+         <img src="vv.jpg" alt="Imagem da orla de Vila Velha." width="700x"> 
+
+        </figure>    
+    
+    <h2>Imagem do Convento da Penha - com legenda</h2>
+        <figure>
+            <img src="conventopenha.jpg" alt="Imagem do Convento da Penha." width="700px">
+                <figcaption>Imagem do Convento da Penha visto de cima.</figcaption>  
+
+        </figure>
+        
+    <h3>Imagem que muda de tamanho</h3>
+        <figure>    
+            <picture>
+                <source srcset="conventopenha.jpg" media="(max-width: 700px)">
+                <img src="orlavvg.jpg" alt="Imagem da Orla de Vila Velha" width="700px">
+
+            </picture>
+        </figure>   
+   
+</body>
+</html>
