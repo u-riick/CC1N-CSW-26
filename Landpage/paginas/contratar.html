@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contratar um Serviço</title>
+</head>
+<body>
+   <h1>Vamos tirar sua ideia do papel!!!</h1>
+    <h3>
+        Preencha o formulário com as suas informações e do seu projeto para que eu possa dar o retorno com uma proposta alinhada ao que você precisa.
+    </h3>
+    <form action="mailto:rickelmexb@hotmail.com" method="post">
+        <table border="0" cellpadding="20" cellspacing="10">
+            <thead></thead>
+            
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="nome">Nome</label><br>
+                        <input type="text" name="nome" id="nome" size="32" maxlength="30" required>
+                    </td>
+                    <td>
+                        <label for="email">Email</label><br>
+                        <input type="email" name="email" id="email" value="" size="32" placeholder="Informe seu email" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="tel">Telefone</label><br>
+                        <input type="tel" id="tel" name="tel" placeholder="+XX (XX)XXXXX-XXXX" required>
+                    </td>
+                    <td>
+                        <label for="">Pessoa</label><br>
+                        <input type="radio" id="opcao" name="opcao" value="fisica" required>Física <br>
+                        <input type="radio" id="opcao" name="opcao" value="juridica"required>Jurídica
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Serviço</label><br>
+                        <select name="servicos" size="1" required>
+                            <option value=""></option>
+                            <option value="basico">Básico</option>
+                            <option value="intermediario">Intermediário</option>
+                            <option value="avancado">Avançado</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label for="hora_contato">Horário para Contato</label><br>
+                        <input type="time" name="hora_contato" id="hora_contato">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="">Descrição do que Deseja Contratar</label><br>
+                        <textarea name="descricao" id="descricao" cols="70" rows="10"></textarea>
+                    </td>
+                </tr>
+            </tbody>
+            
+            <tfoot>
+                <tr>
+                    <th>
+                        <input type="submit" value="Contratar">
+                    </th>
+                    <th>
+                        <input type="reset" value="Limpar">
+                    </th>
+                </tr>
+            </tfoot>
+    
+        </table>
+    </form>
+</body>
+</html>
