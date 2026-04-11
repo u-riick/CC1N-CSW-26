@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>| Contratar um Serviço</title>
+    <link rel="shortcut icon" href="../midia/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../src/style/styles.css">
+    <link rel="stylesheet" href="../src/style/header.css">
+    <link rel="stylesheet" href="../src/style/footer.css">
+    <link rel="stylesheet" href="../src/style/btn.css">
+    <link rel="stylesheet" href="../src/style/contratar.css">
+</head>
+<body>
+    <header>
+        <nav class="nav_bar">
+            <img src="../midia/logorick.png" alt="Logo Rickelme Chaves" class="nav_logo">
+            
+            <ul type="none" class="nav_list">
+                <li class="nav_item">
+                    <a href="../index.html" target="_self">Início</a>
+                </li>
+                <li class="nav_item">
+                    <a href="./curriculo.html" target="_self">Currículo</a>
+                </li>
+                <li class="nav_item">
+                    <a href="./servicos.html" target="_self">Serviços</a>
+                </li>
+                <li class="nav_item">
+                    <a href="./contratar.html" target="_self">Contratar</a>
+                </li>
+            </ul>
+
+            <a href="https://github.com/u-riick" target="_self"><img src="../midia/github.png" alt="" class="header_link"></a>
+        </nav>
+    </header>
+
+   <div class="secao">
+       <h1 class="secao_title">Vamos tirar sua ideia do papel!!!</h1>
+       <h3 class="secao_content">
+           Preencha o formulário com as suas informações e do seu projeto para que eu possa dar o retorno com uma proposta alinhada ao que você precisa.
+       </h3>
+   </div>
+    
+   <form action="mailto:rickelmexb@hotmail.com" method="post" class="form">
+        
+        <table class="tabela_contratar">
+            <thead></thead>
+            
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="nome" class="title">Nome</label><br>
+                        <input type="text" name="nome" id="nome" size="25" maxlength="30" required>
+                    </td>
+                    <td>
+                        <label for="email" class="title">Email</label><br>
+                        <input type="email" name="email" id="email" value="" size="25" placeholder="Informe seu email" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="tel" class="title">Telefone</label><br>
+                        <input type="tel" id="tel" name="tel" placeholder="+XX (XX)XXXXX-XXXX" required>
+                    </td>
+                    <td>
+                        <label for="" class="title">Pessoa</label><br>
+                        <input type="radio" id="opcao" name="opcao" value="fisica" required> <span class="radiotext"> Física</span> <br>
+                        <input type="radio" id="opcao" name="opcao" value="juridica" required> <span class="radiotext"> Jurídica</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="" class="title">Serviço</label><br>
+                        <select name="servicos" size="1" class="tipo_servico" required>
+                            <option value=""></option>
+                            <option value="basico">Básico</option>
+                            <option value="intermediario">Intermediário</option>
+                            <option value="avancado">Avançado</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label for="hora_contato" class="title">Horário para Contato</label><br>
+                        <input type="time" name="hora_contato" id="hora_contato">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="" class="title">Descrição do que Deseja Contratar</label><br>
+                        <textarea name="descricao" id="descricao" cols="70" rows="10"></textarea>
+                    </td>
+                </tr>
+            </tbody>
+            
+            <tfoot>
+                <tr>
+                    <td>
+                        <input type="submit" value="Contratar" class="btn_2">
+                    </td>
+                    <td>
+                        <input type="reset" value="Limpar" class="btn_2">
+                    </td>
+                </tr>
+            </tfoot>
+    
+        </table>
+
+        <img src="../midia/gif_contratar.gif" alt="" class="gif_contratar">
+    </form>
+
+    
+
+    <footer>
+        <nav class="footer_bar">
+            
+            
+            <div class="footer_left">
+                <div class="footer_logo">
+                    <a href="https://github.com/u-riick" target="_self"><img src="../midia/github.png" alt="" class="footer_link"></a>
+                    <a href="https://www.instagram.com/rickeyy.mp3?igsh=cTI0YWM2YjY1NzNj" target="_self"><img src="../midia/insta.png" alt="" class="footer_link"></a>
+                    <a href="https://www.linkedin.com/in/rickelme-chaves-7b3333307/" target="_self"><img src="../midia/linkedn.png" alt="" class="footer_link"></a>
+    
+                </div>
+                
+                <div class="footer_left_text">
+                    <span>Contato:</span>
+                    <p>rickelmexb@hotmail.com</p>
+
+                </div>
+
+            </div>
+           
+            <div class="footer_right">
+                u.Rick
+            </div>
+        </nav>
+    </footer>
+</body>
+</html>
