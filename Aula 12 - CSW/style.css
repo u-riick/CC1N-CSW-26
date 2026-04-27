@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.btn{
+    margin: 30px;
+    width: 300px;
+    padding: 2%;
+    background-color: rgb(125, 185, 35);
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 0 5px 0px greenyellow;
+}
+
+.btn > p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color:greenyellow;
+    transform: translateY(-5px);
+    transition: 0.5s;
+    box-shadow: 0 0 5px 0px black;
+}
+
+.btn:active{
+    background-color: rgb(125, 185, 35);
+}
+
+.link{
+    margin: 30px;
+    width: 300px;
+}
+
+
+.yt{
+    margin-bottom: 30px;
+    width: 300px;
+    padding: 10%;
+    background-color: red;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 0 5px 0px red;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    
+}
+
+.yt:hover{
+    background-color:rgb(255, 56, 56);
+    transform: translateY(-5px);
+    transition: 0.5s;
+    
+}
+
+.yt:active{
+    background-color: black;
+}
+
+.spfy{
+    margin-bottom: 30px;
+    width: 300px;
+    padding: 10%;
+    background-color: #3BE477;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 0 5px 0px #3BE477;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    
+}
+
+.spfy:hover{
+    background-color:#5ce78d;
+    transform: translateY(-5px);
+    transition: 0.5s;
+    box-shadow: 0 0 5px 0px black;
+}
+
+.spfy:active{
+    background-color: black;
+}
+
+.am{
+    margin-bottom: 30px;
+    width: 300px;
+    padding: 10%;
+    background-color: #25D1DA;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 0 5px 0px #25D1DA;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    
+}
+
+.am:hover{
+    background-color:#25D1DA;
+    transform: translateY(-5px);
+    transition: 0.5s;
+    box-shadow: 0 0 5px 0px black;
+}
+
+.am:active{
+    background-color: black;
+}
+
+.yt::before{
+    content: '*';
+}
+
+.yt::after{
+    content: '*';
+}
+
+.spfy::before{
+    content: '*';
+}
+
+.spfy::after{
+    content: '*';
+}
+
+.am::before{
+    content: '*';
+}
+
+.am::after{
+    content: '*';
+}
