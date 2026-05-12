@@ -8,6 +8,31 @@
 
 ul{
     list-style: none;
+    cursor: pointer;
+}
+
+ul > li{
+    position: relative;
+}
+
+ul > li::after{
+    content: " ";
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.664);
+}
+
+ul > li:hover::after{
+    width: 100%;
+}
+
+header > div{
+    cursor: default;
 }
 
 header{
@@ -33,22 +58,54 @@ main{
     display: flex;
     flex-direction: row;
     width: 100%;
-
 }
 
 aside{
-    min-width: 30%;
+    min-width: 150px;
+    max-width: 800px;
+    min-height: 100vh;
+    background-color: #34495E;
+    
 }
 
 aside > ul{
     display: flex;
     flex-direction:column;
     justify-content: flex-start;
-    min-height: 100vh;
     padding: 20px;
     gap: 10px; 
-    background-color: #34495E;
     color: white;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 100%;
+}
+
+section > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    background-color:rgb(211, 211, 211);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+section > div:hover{
+    transform: translateY(-2px);
+    transition: 0.5s;
+}
+
+section > div:active{
+    background-color:rgb(145, 145, 145);
 }
 
 footer{
@@ -62,6 +119,8 @@ footer{
     color: white;
     background-color: #2C3E50;
 }
+
+
 
 
 
